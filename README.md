@@ -1,9 +1,7 @@
 # RPC-DETECT
-通过Windows RPC批量多线程进行出网探测
+通过Windows RPC批量多线程 检测HTTP、DNS协议出网情况
 
 使用 https://www.fuzz.red/ 平台
-
-检测HTTP、DNS协议出网情况
 
 使用方法
 ```
@@ -21,6 +19,6 @@ python RPC-DETECT.py -t 192.168.1.1/24 -u administrator -H :32ed87bdb5fdc5e9cba8
 
 
 # 参考文章
-https://payloads.online/archivers/2022-03-04/1/
-https://s3cur3th1ssh1t.github.io/On-how-to-access-protected-networks/
+https://payloads.online/archivers/2022-03-04/1/  
+https://s3cur3th1ssh1t.github.io/On-how-to-access-protected-networks/  
 https://github.com/SecureAuthCorp/impacket
