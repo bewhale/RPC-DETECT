@@ -51,7 +51,7 @@ def dcerpc(ip, domain, username, password, lmhash, nthash):
     rpctransport = transport.DCERPCTransportFactory(rf'ncacn_np:{ip}[\pipe\spoolss]')
     try:
         rpctransport.set_credentials(username, password, domain, lmhash, nthash)
-        rpctransport.set_connect_timeout(3)
+        rpctransport.set_connect_timeout(6)
         dce = rpctransport.get_dce_rpc()
         dce.connect()
         print(f"\033[33;1m[+] {ip} 认证成功!\033[0m")
