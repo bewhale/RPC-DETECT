@@ -1,7 +1,7 @@
 # RPC-DETECT
 ![RPC-DETECT](https://socialify.git.ci/bewhale/RPC-DETECT/image?description=1&font=Raleway&forks=1&issues=1&language=1&name=1&owner=1&pattern=Solid&stargazers=1&theme=Light)
 
-通过Windows RPC批量多线程 检测HTTP、DNS协议出网情况
+通过Windows RPC批量多线程 对HTTP、DNS协议进行出网情况探测
 
 使用 https://www.fuzz.red/ 平台
 
