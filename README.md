@@ -9,7 +9,7 @@
 ```
 // 指定单个ip
 python RPC-DETECT.py -t 192.168.1.8 -u administrator -p 123456
-// 指定CUID格式
+// 指定CIDR格式
 python RPC-DETECT.py -t 192.168.1.1/24 -u administrator -p 123456 
 // 从文件导入ip地址
 python RPC-DETECT.py -f ip.txt -u administrator -p 123456 
